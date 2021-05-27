@@ -126,8 +126,8 @@ ReadTrainer:
 .ChampionRival ; give moves to his team
 
 ; pidgeot
-	ld a, SKY_ATTACK
-	ld [wEnemyMon1Moves + 2], a
+	ld a, WHIRLWIND
+	ld [wEnemyMon1Moves + 1], a
 
 ; starter
 	ld a, [wRivalStarter]
