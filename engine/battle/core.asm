@@ -4639,7 +4639,7 @@ CriticalHitTest:
 	rlc a
 	rlc a
 	rlc a
-	cp b                         ; check a against calculated crit rate
+	cp 0                         ; don't crit
 	ret nc                       ; no critical hit if no borrow
 	ld a, $1
 	ld [wCriticalHitOrOHKO], a   ; set critical hit flag
