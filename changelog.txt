@@ -1,0 +1,38 @@
+flute to end
+
+[x] no gen 1 miss
+[x] no crits
+[x] arbok only leers
+[x] thrash BP increase to 2 shot arbok
+[x] bird always sands
+[x] hydro cannot miss
+[x] cubone only focus energy
+[x] drowzee only confusion (if no silph bar)
+[x] remove confusion confuse chance
+[x] nido only focus energy
+[x] rhyhorn only stomp/ha
+[x] remove guard spec chance?
+[x] hypno always poison gas
+[x] koga cannot x att
+[x] blizz 100 acc
+[x] blaine never super potion?
+[x] machoke always focus energies
+[x] blackbelt can't x att
+[x] blizz bp to ohko bird and rhydon
+[x] dewgong never aurora beams nido
+[x] onix always rages
+[x] remove bruno x def
+[x] gengar always dream eater or agatha always swaps
+[x] champ bird only mirror move/whirlwind
+[x] sky attack acc 0
+[x] dmg rolls always max
+
+fly split
+[x] bb bp inc
+[x] mp acc 100
+[x] thrash 4 turn minimum
+[x] remove qa priority
+
+flute split
+[x] tb bp inc
+[x] rs acc 100
