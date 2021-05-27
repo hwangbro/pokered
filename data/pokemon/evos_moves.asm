@@ -352,7 +352,6 @@ GengarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, HYPNOSIS
 	db 38, DREAM_EATER
 	db 0
 
@@ -383,8 +382,6 @@ CuboneEvosMoves:
 	db EV_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 25, LEER
-	db 31, FOCUS_ENERGY
 	db 38, THRASH
 	db 43, BONEMERANG
 	db 46, RAGE
@@ -396,7 +393,6 @@ RhyhornEvosMoves:
 	db 0
 ; Learnset
 	db 30, STOMP
-	db 35, TAIL_WHIP
 	db 40, FURY_ATTACK
 	db 45, HORN_DRILL
 	db 50, LEER
@@ -568,11 +564,7 @@ OnixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, BIND
-	db 19, ROCK_THROW
 	db 25, RAGE
-	db 33, SLAM
-	db 43, HARDEN
 	db 0
 
 FearowEvosMoves:
@@ -655,8 +647,6 @@ MachokeEvosMoves:
 	db EV_TRADE, 1, MACHAMP
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
 	db 36, FOCUS_ENERGY
 	db 44, SEISMIC_TOSS
 	db 52, SUBMISSION
@@ -699,9 +689,6 @@ ArbokEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 27, GLARE
 	db 36, SCREECH
 	db 47, ACID
 	db 0
@@ -734,11 +721,7 @@ DrowzeeEvosMoves:
 	db EV_LEVEL, 26, HYPNO
 	db 0
 ; Learnset
-	db 12, DISABLE
 	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 29, POISON_GAS
-	db 32, PSYCHIC_M
 	db 37, MEDITATE
 	db 0
 
@@ -1526,9 +1509,6 @@ HypnoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, DISABLE
-	db 17, CONFUSION
-	db 24, HEADBUTT
 	db 33, POISON_GAS
 	db 37, PSYCHIC_M
 	db 43, MEDITATE
@@ -1689,7 +1669,6 @@ HaunterEvosMoves:
 	db EV_TRADE, 1, GENGAR
 	db 0
 ; Learnset
-	db 29, HYPNOSIS
 	db 38, DREAM_EATER
 	db 0
 
@@ -1729,10 +1708,7 @@ PidgeotEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
-	db 12, QUICK_ATTACK
 	db 21, WHIRLWIND
-	db 31, WING_ATTACK
 	db 44, AGILITY
 	db 54, MIRROR_MOVE
 	db 0
@@ -1892,8 +1868,6 @@ NidorinoEvosMoves:
 ; Learnset
 	db 8, HORN_ATTACK
 	db 14, POISON_STING
-	db 23, FOCUS_ENERGY
-	db 32, FURY_ATTACK
 	db 41, HORN_DRILL
 	db 50, DOUBLE_KICK
 	db 0
