@@ -368,15 +368,15 @@ MainInBattleLoop:
 	callfar SwitchEnemyMon
 .noLinkBattle
 	ld a, [wPlayerSelectedMove]
-	cp QUICK_ATTACK
+	cp $ff ; remove QA priority
 	jr nz, .playerDidNotUseQuickAttack
 	ld a, [wEnemySelectedMove]
-	cp QUICK_ATTACK
+	cp $ff ; remove QA priority
 	jr z, .compareSpeed  ; if both used Quick Attack
 	jp .playerMovesFirst ; if player used Quick Attack and enemy didn't
 .playerDidNotUseQuickAttack
 	ld a, [wEnemySelectedMove]
-	cp QUICK_ATTACK
+	cp $ff ; remove QA priority
 	jr z, .enemyMovesFirst ; if enemy used Quick Attack and player didn't
 	ld a, [wPlayerSelectedMove]
 	cp COUNTER
