@@ -800,6 +800,7 @@ ThrashPetalDanceEffect:
 	and $1
 	inc a
 	inc a
+	inc a
 	ld [de], a ; set thrash/petal dance counter to 2 or 3 at random
 	ldh a, [hWhoseTurn]
 	add ANIM_B0
