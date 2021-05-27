@@ -327,12 +327,12 @@ JugglerAI:
 	jp AISwitchIfEnoughMons
 
 BlackbeltAI:
-	cp 13 percent - 1
+	cp 0
 	ret nc
 	jp AIUseXAttack
 
 GiovanniAI:
-	cp 25 percent + 1
+	cp 0
 	ret nc
 	jp AIUseGuardSpec
 
@@ -377,12 +377,12 @@ ErikaAI:
 	jp AIUseSuperPotion
 
 KogaAI:
-	cp 25 percent + 1
+	cp 0
 	ret nc
 	jp AIUseXAttack
 
 BlaineAI:
-	cp 25 percent + 1
+	cp 0
 	ret nc
 	jp AIUseSuperPotion
 
@@ -419,7 +419,7 @@ LoreleiAI:
 	jp AIUseSuperPotion
 
 BrunoAI:
-	cp 25 percent + 1
+	cp 0
 	ret nc
 	jp AIUseXDefend
 
