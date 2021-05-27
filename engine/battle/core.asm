@@ -5545,7 +5545,7 @@ RandomizeDamage:
 ; loop until a random number greater than or equal to 217 is generated
 .loop
 	call BattleRandom
-	rrca
+	ld a, $ff ; always do max roll
 	cp 217
 	jr c, .loop
 	ldh [hMultiplier], a
