@@ -14,7 +14,7 @@ PalletTown_Object:
 
 	def_objects
 	object SPRITE_OAK, 8, 5, STAY, NONE, 1 ; person
-	object SPRITE_GIRL, 3, 8, WALK, ANY_DIR, 2 ; person
+	object SPRITE_GIRL, 3, 8, WALK, UP, 2 ; person
 	object SPRITE_FISHER, 11, 14, WALK, ANY_DIR, 3 ; person
 
 	def_warps_to PALLET_TOWN
