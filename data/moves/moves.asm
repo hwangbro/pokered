@@ -46,7 +46,7 @@ Moves:
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, NORMAL,       100, 15
 	move WRAP,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
 	move TAKE_DOWN,    RECOIL_EFFECT,               90, NORMAL,        85, 20
-	move THRASH,       THRASH_PETAL_DANCE_EFFECT,  120, NORMAL,       100, 20
+	move THRASH,       THRASH_PETAL_DANCE_EFFECT,   90, NORMAL,       100, 20 ;
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              100, NORMAL,       100, 15
 	move TAIL_WHIP,    DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
 	move POISON_STING, POISON_SIDE_EFFECT1,         15, POISON,       100, 35
@@ -68,9 +68,9 @@ Moves:
 	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,        100,  5
 	move SURF,         NO_ADDITIONAL_EFFECT,        95, WATER,        100, 15
 	move ICE_BEAM,     FREEZE_SIDE_EFFECT,          95, ICE,          100, 10
-	move BLIZZARD,     FREEZE_SIDE_EFFECT,         200, ICE,          100,  5
+	move BLIZZARD,     FREEZE_SIDE_EFFECT,         120, ICE,          100,  5 ;
 	move PSYBEAM,      CONFUSION_SIDE_EFFECT,       65, PSYCHIC_TYPE, 100, 20
-	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      90, WATER,        100, 20
+	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      65, WATER,        100, 20 ;
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ELECTRIC,     100, 20
 	move HYPER_BEAM,   HYPER_BEAM_EFFECT,          150, NORMAL,        90,  5
 	move PECK,         NO_ADDITIONAL_EFFECT,        35, FLYING,       100, 35
@@ -94,7 +94,7 @@ Moves:
 	move DRAGON_RAGE,  SPECIAL_DAMAGE_EFFECT,        1, DRAGON,       100, 10
 	move FIRE_SPIN,    TRAPPING_EFFECT,             15, FIRE,          70, 15
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC,     100, 30
-	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,      120, ELECTRIC,     100, 15
+	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15 ;
 	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,     100, 20
 	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC,      70, 10
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,          65, 15
