@@ -548,7 +548,7 @@ StatModifierDownEffect:
 	cp LINK_STATE_BATTLING
 	jr z, .statModifierDownEffect
 	call BattleRandom
-	cp $40 ; 1/4 chance to miss by in regular battle
+	cp $0 ; removed 1/4 status move miss
 	jp c, MoveMissed
 .statModifierDownEffect
 	call CheckTargetSubstitute ; can't hit through substitute
