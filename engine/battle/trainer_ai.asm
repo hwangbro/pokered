@@ -428,7 +428,7 @@ AgathaAI:
 	jp c, AISwitchIfEnoughMons
 	cp 50 percent + 1
 	ret nc
-	ld a, 4
+	ld a, 2
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseSuperPotion
